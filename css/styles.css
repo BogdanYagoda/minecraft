@@ -1,0 +1,316 @@
+body {
+	margin: 0;
+	height: 10000px;
+}
+
+.resize {
+	width: 980px;
+	margin: 0 auto;
+	border: 1px solid #996633;
+}
+
+/*.green_line start*/
+.green_line {
+	background: #37a14c;
+}
+
+.header_text {
+	float: left;
+	font-family: arial regular;
+	color: white;
+	margin-top: 15px;
+}
+
+ul.lang {
+	float: right;
+	margin-top: 6px;
+}
+
+ul.lang > li {
+	display: inline-block;
+	margin: 3px;
+}
+
+.icon_vk {
+	height: 28px;
+	width: 28px;
+	background: url(../img/icon_vk.jpg);
+	display: block;
+}
+
+.icon_fb {
+	height: 28px;
+	width: 28px;
+	background: url(../img/icon_fb.jpg);
+	display: block;
+}
+
+.icon_lang_en {
+	height: 28px;
+	width: 28px;
+	background: url(../img/icon_lang_en.jpg);
+	display: block;
+}
+
+.green_line > .resize::after{
+	content:'.';
+	display: block;
+	clear: both;
+	height: 0px;
+}
+/*.green_line end*/
+
+
+/*header content start*/
+.logo {
+	background: url(../img/logo.png);
+	width: 150px;
+	height: 94px;
+	float: left;
+	margin-top: 10px;
+}
+
+.info {
+	border: 1px solid;
+	float: left;
+}
+
+.info > div {
+	margin: 4px 0;
+}
+
+.admin > p {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.admin > div {
+	float: right;
+	margin-left: 30px;
+}
+
+.donat{
+	float: left;
+}
+
+.donat > div {
+	float: right;
+	margin-left: 8px;
+}
+
+.skype{
+	float: left;
+}
+
+.skype > div{
+	background: url(../img/icon_skype.jpg);
+	height: 18px;
+	width: 17px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+
+.buttons {
+	float: left;
+	width: 135px;
+}
+
+.buttons > button {
+	width: 135px;
+	height: 35px;
+	background: #febf0f;
+	border: 0;
+	margin-top: 10px;
+	margin-left: 15px;
+	border-radius: 3px;
+	color: white;
+}
+
+.logo2 {
+	background: url(../img/logo2.png);
+	height: 58px;
+	width: 351px;
+	float: right;
+	margin-top: 22px;
+}
+
+header > section.resize::after{
+	content:'.';
+	display: block;
+	clear: both;
+	height: 0;
+}
+/*header content end*/
+
+/*nav*/
+nav {
+	background: #37a14c;
+	color: white;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+}
+/**/
+
+/*main*/
+aside {
+	float: left;
+	border: 1px solid red;
+	padding-top: 10px;
+}
+
+aside ul li {
+	list-style-type: none;
+	height: 55px;
+	width: 200px;
+	font-weight: 600;
+}
+
+.content{
+	float: left;
+	border: 1px solid red;
+}
+
+.img1 {
+	background: url(../img/img1.jpg);
+	height: 324px;
+	width: 732px;
+}
+
+.content p{
+	max-width: 732px;
+}
+
+.topics div{
+	display: inline-block;
+	width: 230px;
+	vertical-align: top;
+	background: #37a14c;
+	padding-top: 10px;
+}
+
+.topics div date{
+	font-weight: bolder;
+	margin-left: 5px;
+}
+
+.topics div p{
+	color: white;
+	margin-left: 5px;
+}
+
+.topics div:nth-child(2){
+	margin: 0 17px;
+}
+
+.t1_img{
+	background: url(../img/img2.jpg);
+	height: 174px;
+	width: 232px;
+	z-index: 999;
+}
+
+.t2_img{
+	background: url(../img/img2.jpg);
+	height: 174px;
+	width: 232px;
+	z-index: 999;
+}
+
+.t3_img{
+	background: url(../img/img2.jpg);
+	height: 174px;
+	width: 232px;
+	z-index: 999;
+}
+
+main div.resize::after{
+	content:'.';
+	display: block;
+	clear: both;
+	height: 0;
+}
+/**/
+
+/*footer*/
+.yellow_line{
+	background: #f1b008;
+}
+
+.yellow_line .resize p{
+	display: block;
+	color: white;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.contacts{
+	width: 220px;
+	float: right;
+	margin: 10px 0;
+	margin-right: 30px;
+	font-weight: 600;
+}
+
+.contacts1{
+	float: left;
+	text-align: right;
+}
+
+.contacts2{
+	float: right;
+}
+
+.yellow_line .resize::after{
+	content:'.';
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.green_line2{
+	background: #37a14c;
+}
+
+.footer_img{
+	margin: 10px 0;
+	padding: 0;
+}
+
+.footer_img li{
+	display: inline-block;
+	margin: 0 16px;
+	padding: 0;
+}
+
+.footer_img li:nth-child(1){
+	background: url(../img/img5.jpg);
+	height: 69px;
+	width: 198px;
+}
+
+.footer_img li:nth-child(2){
+	background: url(../img/img6.jpg);
+	height: 69px;
+	width: 198px;
+}
+
+.footer_img li:nth-child(3){
+	background: url(../img/img7.jpg);
+	height: 69px;
+	width: 219px;
+}
+
+.footer_img li:nth-child(4){
+	background: url(../img/img8.jpg);
+	height: 69px;
+	width: 221px;
+}
+/**/
